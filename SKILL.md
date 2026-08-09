@@ -171,6 +171,15 @@ design and a few placeholder real-estate photos to start. Building that now.").
      scale down instead of overflowing, the contact form is easy to fill out
      on a phone keyboard). Before calling Step 4 done, check the live site at
      a phone-sized width yourself, not just desktop width.
+   - **Fast-loading, quietly by default** — also don't ask about this, just do
+     it: compress and appropriately size every image before it ships (don't
+     drop in a multi-megabyte photo straight from a phone camera), use modern
+     efficient image formats where the tooling supports it, avoid unnecessary
+     heavy libraries/scripts for a simple site like this, and let Vercel's
+     built-in CDN and caching do their job rather than fighting it. A
+     first-time visitor on an average phone connection shouldn't be sitting
+     there waiting. Spot-check real load time on the deployed link before
+     calling Step 4 done, not just how it feels running locally.
 2. Deploy it to Vercel (via the Vercel CLI or dashboard connection). Confirm they
    can see the live `*.vercel.app` link working in a browser first.
 3. **Connect their real domain**: in the Vercel project's Domains settings, add
