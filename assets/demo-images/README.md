@@ -10,3 +10,9 @@ style/theme they chose by eye rather than by folder name.
 Only add images here that are actually free to use commercially (public domain,
 CC0, or images you own/shot yourself) — no images pulled from random search
 results without checking their license.
+
+Images are kept web-ready: resized to a 1600px max edge and saved as
+quality-78 JPEGs (a few hundred KB each instead of several MB), matching the
+"fast-loading by default" rule in `SKILL.md` Step 4. Compress new images the
+same way before adding them, e.g.:
+`sips -Z 1600 -s format jpeg -s formatOptions 78 input.png --out output.jpg`
