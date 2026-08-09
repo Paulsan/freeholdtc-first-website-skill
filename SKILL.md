@@ -199,6 +199,15 @@ design and a few placeholder real-estate photos to start. Building that now.").
      `sitemap.xml` and `robots.txt`. This is the free, table-stakes SEO every
      site should have — not a paid SEO campaign, just not shooting themselves
      in the foot with an invisible-to-Google site.
+   - **Favicon and social share image by default** — also don't ask about
+     this, just do it: generate a simple favicon (the small icon in the
+     browser tab) from their logo if they have/made one, or a simple
+     initial/icon in their color theme if not; and set up an Open Graph share
+     image (the preview picture that shows up when the link is shared in
+     texts, iMessage, Slack, Facebook, etc.) using their logo, a hero photo,
+     or a clean branded card — so the site looks intentional and finished the
+     first time anyone shares the link, not blank or using a generic default
+     icon.
 2. Deploy it to Vercel (via the Vercel CLI or dashboard connection). Confirm they
    can see the live `*.vercel.app` link working in a browser first.
 3. **Connect their real domain**: in the Vercel project's Domains settings, add
