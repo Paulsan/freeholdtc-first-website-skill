@@ -111,11 +111,37 @@ They're likely already in Claude Desktop to be reading this, but confirm:
 3. No payment info required for the free Hobby plan — reassure them nothing will
    be charged.
 
+## Step 3.5 — Ask what it should look like
+
+Before building anything, ask them a few simple design questions — don't guess
+their taste for them. Keep each question short and give real examples, since
+"design style" is an abstract idea to a first-timer. Ask (one at a time or
+together, whatever reads naturally):
+
+1. **Overall style** — give them a few named options to pick from, like:
+   clean/minimal, business/professional, retro, tropical/beachy, real estate,
+   office/corporate, rustic/farmhouse, playful/fun, elegant/luxury. Let them
+   pick one, mix two, or describe their own in their own words if none fit —
+   don't force them into a box.
+2. **Color theme** — ask: light background, dark background, or pastel/soft
+   colors? Also ask if they have specific colors in mind (like "my logo is
+   navy and gold") vs. wanting suggestions.
+3. **A site they like** — ask: "Is there a website you've seen — theirs or
+   someone else's — whose look you like? If you can find the link (the address
+   in the browser bar, or just search and copy it), share it and I'll use it
+   as inspiration." This is optional; if they don't have one, that's fine,
+   move on. If they give a URL, actually look at it (visit it) before designing,
+   don't just take the name of the site at face value.
+
+Reflect their answers back in one sentence to confirm you understood before
+building ("Got it — a clean, light, real-estate-style site with navy and gold
+accents, inspired by the layout of [their example]. Building that now.").
+
 ## Step 4 — Build the site with Claude, and connect the domain
 
-1. In Claude Code, have a plain-English conversation about what they want on the
-   site (pages, colors, what it says, photos if they have them). Build a simple,
-   clean site for them — don't over-engineer it.
+1. Using their answers from Step 3.5, build a simple, clean site matching the
+   style, color theme, and any reference site they described — don't
+   over-engineer it, and don't drift from what they asked for.
 2. Deploy it to Vercel (via the Vercel CLI or dashboard connection). Confirm they
    can see the live `*.vercel.app` link working in a browser first.
 3. **Connect their real domain**: in the Vercel project's Domains settings, add
