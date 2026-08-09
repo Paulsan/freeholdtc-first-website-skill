@@ -50,8 +50,12 @@ business, retro, tropical, real estate, office, rustic, playful, or
 elegant — or my own idea), what color theme (light, dark, or pastel, and any
 specific colors), whether there's a website look I like that I can describe
 to you, and whether I already have a logo or want you to design a simple
-one. If I don't have photos yet, suggest I search a free stock-photo site
-for a couple of images, or just use clean color blocks instead.
+one. If I don't have photos yet, there are free demo photos in Paul's GitHub
+account, username Paulsan, in a repository called first-website-skill,
+inside a folder called assets/demo-images — look there if you can, or tell
+me where to find it so I can pick some myself and download them. If none of
+those fit, suggest I search a free stock-photo site instead, or just use
+clean color blocks.
 
 6. Write my actual website as simple files (like index.html and a styling
 file), giving me each one in a clearly labeled copy/paste box with its exact

@@ -171,14 +171,18 @@ together, whatever reads naturally):
    logo as part of the site build (as code — a styled text mark, not an
    uploaded image) — set expectations that it'll be a clean, simple mark (not
    a professional branding package), and they can always swap it later.
-5. **Demo photos** — if they don't have their own photos yet, offer to either
-   (a) suggest they search a free stock-photo site (like Unsplash or Pexels)
-   for a couple of images matching the style they chose in question 1 and
-   download those to upload in Step 5, or (b) skip photos for now and use
-   clean color blocks/shapes in the site's color theme instead, which looks
-   intentional rather than empty. Tell them plainly either way that these are
-   placeholders they're welcome to swap for real photos of their own business
-   any time.
+5. **Demo photos** — a set of free-to-use demo photos is available in Paul's
+   GitHub account, "Paulsan," in the "first-website-skill" repository, inside
+   the `assets/demo-images` folder. If you're able to look things up, find
+   that and pick a few images matching the style they chose in question 1. If
+   you can't look it up, just tell them where to find it in those same plain
+   words ("Paul's GitHub, Paulsan, repo called first-website-skill, folder
+   assets/demo-images") so they can search for it and open it themselves, pick
+   a few they like, and download those to upload in Step 5. Either way, if
+   nothing fits or they'd rather not use it, suggest a free stock-photo site
+   (like Unsplash or Pexels) or clean color blocks/shapes in the site's color
+   theme instead. Tell them plainly these are placeholders they're welcome to
+   swap for real photos of their own business any time.
 
 Reflect their answers back in one sentence to confirm you understood before
 building ("Got it — a clean, light, real-estate-style site with navy and gold
