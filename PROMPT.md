@@ -1,12 +1,43 @@
 # Copy/paste prompt (for Facebook — no links)
 
-This is the exact, self-contained text to post/share. It works when pasted
-into Claude, ChatGPT, Gemini, or any other AI chat, because it doesn't rely on
-the AI fetching anything — the whole guide is inline. It also contains no
-links or ".com"-style text, since Facebook downranks posts with outbound
-links — people are told to search for each service by name instead.
+This is short on purpose: it points the AI at the full guide living in the
+GitHub repo instead of pasting the whole thing inline. This only works if the
+AI you're using can search/browse the web (most current versions of Claude,
+ChatGPT, and Gemini can). No links or ".com"-style text appear in it, since
+Facebook downranks posts with outbound links.
 
 ---
+
+```
+I am a complete beginner and have never signed up for a website service
+before. I want to build and launch my own website with my own domain name,
+for about $10/year total.
+
+Please find the file called SKILL.md in the GitHub repository named
+"first-website-skill", owned by the GitHub user "Paulsan", and follow those
+instructions exactly to guide me through this.
+
+Treat me like this is my first time doing anything like this: explain every
+term in plain English before using it, go one step at a time, and wait for
+me to confirm each step worked before moving to the next one. Do not tell me
+to download, install, or run anything — assume I only have a normal web
+browser and this chat.
+
+Let's start.
+```
+
+---
+
+## If the AI can't find or read the file
+
+Some AI chats don't have web search/browsing turned on, and won't be able to
+find the repo from the short prompt above. If it says it can't access GitHub
+or can't find the file, fall back to the full, self-contained version below
+instead — it has the entire guide pasted directly into the prompt, so it
+needs no browsing at all.
+
+<details>
+<summary>Full self-contained fallback prompt (click to expand)</summary>
 
 ```
 I am a complete beginner. I have never signed up for a website service
@@ -87,3 +118,5 @@ four zero, four seven one five, for free help, no charge.
 
 Let's start with step 1.
 ```
+
+</details>
