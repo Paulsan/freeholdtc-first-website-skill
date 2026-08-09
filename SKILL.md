@@ -189,6 +189,16 @@ design and a few placeholder real-estate photos to start. Building that now.").
      engines most visitors will actually be on, between desktop and iPhone
      Safari) and confirm layout, fonts, and the contact form all work the same
      in each.
+   - **Basic SEO by default** — also don't ask about this, just do it: give
+     every page a real, descriptive `<title>` and meta description (using the
+     business name and what they do/where they are, not "Home" or
+     placeholder text); use one clear `<h1>` per page; use semantic
+     heading/section structure instead of everything styled as a plain
+     `<div>`; set the `lang` attribute; add basic Open Graph tags so the link
+     looks good when shared on social media or texted; generate a simple
+     `sitemap.xml` and `robots.txt`. This is the free, table-stakes SEO every
+     site should have — not a paid SEO campaign, just not shooting themselves
+     in the foot with an invisible-to-Google site.
 2. Deploy it to Vercel (via the Vercel CLI or dashboard connection). Confirm they
    can see the live `*.vercel.app` link working in a browser first.
 3. **Connect their real domain**: in the Vercel project's Domains settings, add
