@@ -138,12 +138,12 @@ together, whatever reads naturally):
    site build — set expectations that it'll be a clean, simple mark (not a
    professional branding package), and they can always swap it later.
 5. **Demo photos** — this repo (freeholdtc-first-website-skill) includes a
-   folder of free-to-use demo/stock images under `assets/demo-images/`,
-   organized by theme (business, real estate, tropical, office, retro, etc.).
-   If they don't have their own photos yet, offer these as placeholders so the
-   site doesn't launch empty — pick ones matching the style they chose in
-   question 1, and tell them plainly these are placeholders they're welcome to
-   swap for real photos of their own business any time.
+   flat folder of free-to-use demo/stock images under `assets/demo-images/`
+   (no subfolders — look at the images and pick by eye). If they don't have
+   their own photos yet, offer these as placeholders so the site doesn't
+   launch empty — pick ones that fit the style they chose in question 1, and
+   tell them plainly these are placeholders they're welcome to swap for real
+   photos of their own business any time.
 
 Reflect their answers back in one sentence to confirm you understood before
 building ("Got it — a clean, light, real-estate-style site with navy and gold
