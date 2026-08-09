@@ -208,6 +208,12 @@ design and a few placeholder real-estate photos to start. Building that now.").
      or a clean branded card — so the site looks intentional and finished the
      first time anyone shares the link, not blank or using a generic default
      icon.
+   - **Basic analytics by default** — also don't ask about this, just do it:
+     turn on Vercel's built-in Web Analytics for the project (free on the
+     Hobby plan, no extra signup, no cookie banner needed). This gives them a
+     simple page in their Vercel dashboard showing visitor counts and top
+     pages over time, so they can see whether anyone's finding the site. In
+     Step 7, show them once, in the dashboard, where to look.
 2. Deploy it to Vercel (via the Vercel CLI or dashboard connection). Confirm they
    can see the live `*.vercel.app` link working in a browser first.
 3. **Connect their real domain**: in the Vercel project's Domains settings, add
@@ -242,6 +248,8 @@ new version live on your site. You never have to touch code."
 Recap in 3-4 short bullets: what they now own, what it cost, what's free
 forever, and that Paul (774-240-4715, FreeholdTC.dev) is on call for free if
 anything is confusing later — encourage them to actually save that number.
+Also show them, once, live in their Vercel dashboard, where the Analytics tab
+is so they know how to check visitor traffic later on their own.
 
 ## Guardrails for you (the agent)
 
