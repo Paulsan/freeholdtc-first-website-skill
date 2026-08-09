@@ -180,6 +180,15 @@ design and a few placeholder real-estate photos to start. Building that now.").
      first-time visitor on an average phone connection shouldn't be sitting
      there waiting. Spot-check real load time on the deployed link before
      calling Step 4 done, not just how it feels running locally.
+   - **Cross-browser by default** — also don't ask about this, just do it:
+     stick to standard, well-supported HTML/CSS/JS rather than bleeding-edge
+     features that only work in one browser, and don't assume the visitor is
+     using whatever browser you happen to be testing in. Before calling Step 4
+     done, load the live deployed link in more than one browser engine (e.g.
+     Chrome/Edge and Safari at minimum — they're the two different rendering
+     engines most visitors will actually be on, between desktop and iPhone
+     Safari) and confirm layout, fonts, and the contact form all work the same
+     in each.
 2. Deploy it to Vercel (via the Vercel CLI or dashboard connection). Confirm they
    can see the live `*.vercel.app` link working in a browser first.
 3. **Connect their real domain**: in the Vercel project's Domains settings, add
