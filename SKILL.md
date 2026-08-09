@@ -155,6 +155,15 @@ design and a few placeholder real-estate photos to start. Building that now.").
 1. Using their answers from Step 3.5, build a simple, clean site matching the
    style, color theme, and any reference site they described — don't
    over-engineer it, and don't drift from what they asked for.
+   - **Accessibility, quietly by default** — don't ask the client about this,
+     just do it: give every image real alt text describing what's in it (not
+     "image1.jpg" or empty alt on meaningful images); make sure text has
+     enough contrast against its background to read easily, especially if
+     they picked a pastel or dark theme (light gray text on white or pastel
+     backgrounds is a common trap — check it); keep font sizes readable; make
+     sure buttons/links are easy to tell apart from plain text. This matters
+     both so visitors with low vision or a screen reader can actually use the
+     site, and because it's just a better-built site.
 2. Deploy it to Vercel (via the Vercel CLI or dashboard connection). Confirm they
    can see the live `*.vercel.app` link working in a browser first.
 3. **Connect their real domain**: in the Vercel project's Domains settings, add
