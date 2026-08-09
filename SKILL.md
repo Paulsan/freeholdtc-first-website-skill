@@ -137,7 +137,7 @@ together, whatever reads naturally):
    like one made, offer to design a simple text/icon-based logo as part of the
    site build — set expectations that it'll be a clean, simple mark (not a
    professional branding package), and they can always swap it later.
-5. **Demo photos** — this repo (freeholdtc-first-website-skill) includes a
+5. **Demo photos** — this repo (first-website-skill) includes a
    flat folder of free-to-use demo/stock images under `assets/demo-images/`
    (no subfolders — look at the images and pick by eye). If they don't have
    their own photos yet, offer these as placeholders so the site doesn't
