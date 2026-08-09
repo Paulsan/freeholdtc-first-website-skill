@@ -164,6 +164,13 @@ design and a few placeholder real-estate photos to start. Building that now.").
      sure buttons/links are easy to tell apart from plain text. This matters
      both so visitors with low vision or a screen reader can actually use the
      site, and because it's just a better-built site.
+   - **Mobile responsive, quietly by default** — also don't ask about this,
+     just do it: most visitors will be on a phone, so build the layout to
+     adapt cleanly to small screens (text reflows instead of tiny/zoomed,
+     nothing overflows sideways, buttons/links are big enough to tap, images
+     scale down instead of overflowing, the contact form is easy to fill out
+     on a phone keyboard). Before calling Step 4 done, check the live site at
+     a phone-sized width yourself, not just desktop width.
 2. Deploy it to Vercel (via the Vercel CLI or dashboard connection). Confirm they
    can see the live `*.vercel.app` link working in a browser first.
 3. **Connect their real domain**: in the Vercel project's Domains settings, add
