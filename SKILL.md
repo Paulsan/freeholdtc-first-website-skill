@@ -132,10 +132,23 @@ together, whatever reads naturally):
    as inspiration." This is optional; if they don't have one, that's fine,
    move on. If they give a URL, actually look at it (visit it) before designing,
    don't just take the name of the site at face value.
+4. **Logo** — ask: "Do you already have a logo, or would you like one made for
+   the site?" If they have one, ask them to share the image file. If they'd
+   like one made, offer to design a simple text/icon-based logo as part of the
+   site build — set expectations that it'll be a clean, simple mark (not a
+   professional branding package), and they can always swap it later.
+5. **Demo photos** — this repo (freeholdtc-first-website-skill) includes a
+   folder of free-to-use demo/stock images under `assets/demo-images/`,
+   organized by theme (business, real estate, tropical, office, retro, etc.).
+   If they don't have their own photos yet, offer these as placeholders so the
+   site doesn't launch empty — pick ones matching the style they chose in
+   question 1, and tell them plainly these are placeholders they're welcome to
+   swap for real photos of their own business any time.
 
 Reflect their answers back in one sentence to confirm you understood before
 building ("Got it — a clean, light, real-estate-style site with navy and gold
-accents, inspired by the layout of [their example]. Building that now.").
+accents, inspired by the layout of [their example], with a simple logo I'll
+design and a few placeholder real-estate photos to start. Building that now.").
 
 ## Step 4 — Build the site with Claude, and connect the domain
 
